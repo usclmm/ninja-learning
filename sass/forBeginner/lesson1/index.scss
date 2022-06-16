@@ -1,0 +1,9 @@
+@use 'mixin';
+
+.red {
+  @include mixin.myAlpha(#f00);
+}
+
+.green{
+  @include mixin.myAlpha(#008000);
+}
