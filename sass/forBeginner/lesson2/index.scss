@@ -1,0 +1,11 @@
+@use 'mixin';
+
+.parent{
+    position: relative;
+  }
+  .children1{
+    @include mixin.myPosition(-50%);
+  }
+  .children2{
+    @include mixin.myPosition(-30%);
+  }
