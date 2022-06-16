@@ -1,0 +1,16 @@
+.parent {
+  position: relative;
+}
+
+.children1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.children2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-30%);
+}
+/*# sourceMappingURL=index.css.map */

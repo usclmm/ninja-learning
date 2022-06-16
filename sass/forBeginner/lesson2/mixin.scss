@@ -1,0 +1,7 @@
+@mixin myPosition($value){
+    position: absolute;
+    top: 50%;
+    transform: translateY($value);
+}
+
+//lesson1が分かれば難しくない。
