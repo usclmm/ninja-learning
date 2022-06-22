@@ -1,0 +1,8 @@
+@use 'mixin';
+
+.ninja1{
+    @include mixin.myLayout(50px, false);
+  }
+  .ninja2{
+    @include mixin.myLayout(50px, true);
+  }

@@ -1,0 +1,8 @@
+@use 'mixin';
+
+.ninja1{
+    @include mixin.myIndent(1em);
+  }
+  .ninja2{
+    @include mixin.myIndent(6em);
+  }

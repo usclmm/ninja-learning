@@ -1,0 +1,17 @@
+@mixin myLayout($pos1,$pos2){
+    position: absolute;
+
+    @if $pos1 == 'top' {
+        top: 0;
+      }
+      @if $pos1 == 'bottom' {
+        bottom: 0;
+      }
+      @if $pos2 == 'left' {
+        left: 0;
+      }
+      @if $pos2 == 'right' {
+        right: 0;
+      }
+
+}

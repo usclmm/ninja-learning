@@ -1,0 +1,6 @@
+$sizeList:10px,20px,30px,40px; //sassの配列
+.ninja{
+  width: nth($sizeList, 3);
+}
+
+//sassの場合は1番目から始まる
