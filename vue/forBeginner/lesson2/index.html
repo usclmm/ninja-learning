@@ -1,0 +1,25 @@
+<script src="https://unpkg.com/vue@3"></script>
+
+<div id="app">{{ message }}</div>
+
+<script>
+  const { createApp } = Vue
+
+  createApp({
+    data() {
+      return {
+        message: 'Hello Vue!'
+      }
+    }
+  }).mount('#app')
+</script>
+
+<style>
+    #app {
+      font-size: 3rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 30% auto;
+      color: #41BA83;
+    }
+  </style>
