@@ -1,0 +1,7 @@
+@mixin myLayout($width,$bool){
+    width: $width;
+
+    @if ($bool == true) {
+        height: 20px;
+    }
+}

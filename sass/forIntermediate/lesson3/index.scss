@@ -1,0 +1,9 @@
+@use 'mixin';
+
+.ninja1{
+    @include mixin.mySize();
+  }
+  .ninja2{
+    @include mixin.mySize(500px);
+  }
+  

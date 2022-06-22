@@ -1,0 +1,7 @@
+@use 'mixin';
+.ninja1{
+    @include mixin.myLayout('top', 'left');
+  }
+  .ninja2{
+    @include mixin.myLayout('bottom', 'right');
+  }

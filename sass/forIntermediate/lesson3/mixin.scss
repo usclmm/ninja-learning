@@ -1,0 +1,5 @@
+@mixin mySize($val: 200px){
+    width: $val;
+}
+
+//mixinは引数に初期値を設定できる

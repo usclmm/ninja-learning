@@ -1,0 +1,4 @@
+@mixin myIndent($indent){
+    padding-left: $indent;
+    text-indent: $indent;
+}

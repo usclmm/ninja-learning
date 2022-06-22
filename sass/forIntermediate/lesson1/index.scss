@@ -1,0 +1,11 @@
+$size:100px;
+.ninja{
+  width: #{$size * 1.5}
+}
+
+//以下別解
+
+// $size:100px;
+// .ninja{
+//     width: $size + 50;
+//   }
