@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Code</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+    <div id="app" class="text-card">
+        <div v-if="random == 'fun'">
+          <p>NinjaCodeはすごく楽しい!</p>
+          <p>楽しく学べるプログラミング</p>
+        </div>
+        <div v-else-if="random == 'lazy'">
+          <p>NinjaCODEは退屈だ</p>
+          <p>非常に退屈だ...</p>
+        </div>
+        <div v-else="">
+          <p>NinjaCODE 難しい</p>
+          <p>難しいなあ</p>
+        </div>
+    </div>
+</body>
+    <script src="message.js"></script>
+</html>
